@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Application Form</title>
+</head>
+
+<body>
+    <h3>Employee Application Form</h3>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>Full Name</label></td>
+                    <td><input type="text" placeholder="Enter Your Full Name" autofocus required maxlength="20"></td>
+                </tr>
+                <tr>
+                    <td><label>Email Address</label></td>
+                    <td><input type="email" placeholder="abc@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password" required and It should be not visible></td>
+                </tr>
+                <tr>
+                    <td><label>Contact Number</label></td>
+                    <td><input type="number" required and Only numeric digits allowed not character></td>
+                </tr>
+                <tr>
+                    <td><label>Profile Photo</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label>Date Of Birth</label></td>
+                    <td><input type="date" required and Should have Calendar></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><input type="radio" name="gender"><label>Female</label>
+                        <input type="radio" name="gender"><label>Male</label>
+                        <input type="radio" name="gender"><label>Others</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marital Status</td>
+                    <td><input type="radio" name="marital status"> <label>Yes</label>
+                        <input type="radio" name="marital status"><label>No</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Known Tools & Technology</label></td>
+                    <td><input type="checkbox"><label>Angular</label>
+                        <input type="checkbox"><label>React</label>
+                        <input type="checkbox"><label>Python</label>
+                        <input type="checkbox"><label>Java</label>
+                        <input type="checkbox"><label>Jenkin</label>
+                        <input type="checkbox"><label>GIT</label>
+                        <input type="checkbox"><label>Database</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Profile</label></td>
+                    <td>
+                        <select>
+                            <option>UI Developer</option>
+                            <option>Backend Developer</option>
+                            <option>Full Stack Developer</option>
+                            <option>DevOps Engineer</option>
+                            <option>Tester</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td><input type="text" value="India" disabled></td>
+                </tr>
+                <tr>
+                    <td><label>Present Address</label></td>
+                    <td><textarea rows="7" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
+
+
