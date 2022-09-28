@@ -7,10 +7,20 @@
         table,th,tr,td{
             border: 2px solid rgb(102, 91, 91);
         }
+        .table_section th,td,table{
+            padding:20px 20px 20px 20px;
+            background-color: bisque;
+            margin-right: 80px;
+        }
+        #text_label{
+            background-color: cadetblue;
+        }
+        
     </style>
     <body>
+        <div class="table_section">
         <table>
-            <caption><strong>Education Details</strong></caption>
+            <span id="text_label">Education Details</span>
             <thead>
                 <tr>
                     <td>Sr.No</td>
@@ -46,5 +56,6 @@
                 </tr>
             </tbody>
         </table>
+    </div>
     </body>
 </html>
