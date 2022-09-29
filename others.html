@@ -3,8 +3,70 @@
 
 <head>
     <title>Employee Application Form</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+<style>
 
+      input[type="text"],input[type="email"],input[type="password"]{
+        width: 200px;
+        color: white;
+        background-color: rgb(168, 119, 119);
+        text-transform: capitalize;
+        border-radius: 10px;
+    }
+    input[type="number"]{
+        border-radius: 10px;
+        width: 200px;
+        background-color: rgb(168, 119, 119);
+        color: white;
+       
+
+    }
+    #textarea{
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(168, 119, 119);
+        
+    }
+    input[type="submit"]{
+        background-color:crimson ;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+    }
+    input[type="reset"]{
+        background-color: crimson;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+    }
+    table td{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 400;
+        color: aliceblue;
+    }
+    label{
+        background-color:aquamarine;
+        color: black;
+        font-size: medium;
+        font-family: "poopins"cursive;
+    }
+    h3{
+        color: beige;
+        text-shadow: 8px 8px 5px rgb(52, 170, 48);
+
+    }
+    .button:hover{
+        box-shadow: 4px 5px 3px darkgoldenrod;
+        color: black;
+        background-color: darkgreen;
+
+    }
+</style>
+</head>
 <body>
     <h3>Employee Application Form</h3>
     <form>
@@ -42,7 +104,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Marital Status</td>
+                    <td><label>Marital Status</label></td>
                     <td><input type="radio" name="marital status"> <label>Yes</label>
                         <input type="radio" name="marital status"><label>No</label>
                     </td>
@@ -76,11 +138,11 @@
                 </tr>
                 <tr>
                     <td><label>Present Address</label></td>
-                    <td><textarea rows="7" cols="30"></textarea></td>
+                    <td><textarea rows="7" cols="30" id="textarea"></textarea></td>
                 </tr>
                 <tr>
-                    <td><input type="submit"></td>
-                    <td><input type="reset"></td>
+                    <td><input type="submit" class="button"></td>
+                    <td><input type="reset"class="button"></td>
                 </tr>
             </tbody>
         </table>
