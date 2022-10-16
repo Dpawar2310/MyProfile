@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <style>
+        .container {
+            
+            border: 2px solid black;
+            height: 70vh;
+            margin: 30px 30%;
+            border-radius: 5px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        .main input {
+            width: 420px;
+            height: 5vh;
+            margin-top: 20px;
+            margin-bottom: 3px;
+            border-radius: 4px;
+        }
+
+        .on_off {
+            width: 380px;
+        }
+        
+        .on_off input {
+            border: none;
+            width: 120px;
+            margin: 5px 12px;
+            height: 5vh;
+        }
+        
+        .number {
+            margin-left: 0%;
+            margin-right: 7%;
+            /* border: 2px solid magenta; */
+        }
+        
+        .number input {
+            width: 55px;
+            height: 40px;
+            margin: 10px 22px;
+            font-weight: bolder;
+            font-size: large;
+            border: none;
+        }
+        #left_item{
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <input type="text" class="text_1" class="enter_text">
+        </div>
+        <div class="on_off">
+            <input type="button" value="ON/AC">
+            <input type="button" value="AUTO REPLAY">
+        </div>
+        <div class="number">
+            <input type="button" value="GT" >
+            <input type="button" value="CE" >
+            <input type="button" value="MU" >
+            <input type="button" value="-" id="left_item">
+            <input type="button" value="9">
+            <input type="button" value="8">
+            <input type="button" value="7">
+            <input type="button" value="%" id="left_item">
+            <input type="button" value="6">
+            <input type="button" value="5">
+            <input type="button" value="4">
+            <input type="button" value="*" id="left_item">
+            <input type="button" value="3">
+            <input type="button" value="2">
+            <input type="button" value="1">
+            <input type="button" value="+" id="left_item">
+            <input type="button" value="0">
+            <input type="button" value="00">
+            <input type="button" value="." >
+            <input type="button" value="=" id="left_item">
+        </div>
+
+    </div>
+</body>
+
+</html>
